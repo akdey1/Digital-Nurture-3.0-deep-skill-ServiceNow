@@ -1,2 +1,43 @@
-# Digital-Nurture-3.0-deep-skill-ServiceNow
+# Digital-Nurture-3.0-deep-skill-ServiceNow 
+ What is ServiceNow?
+ServiceNow is a cloud-based platform designed primarily for IT service management (ITSM), but it has evolved to support a wide range of business functions. The platform provides a user-friendly interface, making it accessible not only to IT professionals but also to non-IT or business users. It allows organizations to efficiently manage IT services, including incident, problem, and change management, by streamlining processes and automating tasks. This contributes to improved service delivery and operational efficiency across the enterprise.
+
+2. ServiceNow Platform Overview
+The ServiceNow platform is a comprehensive solution that provides applications and workflows tailored for various business needs, including IT operations, employee management, customer service, and creator tasks. It operates on a single database, ensuring consistency and reliability across the organization. The platform includes robust data backup and security features, ensuring data integrity and protection. Users can access ServiceNow through three main interfaces: the Now Platform, which is the most commonly used, ServiceNow Apps, and the Service Portal. Additionally, the platform employs role-based access control to ensure that users have access only to the features they need, backed by secure user authentication mechanisms.
+
+3. ServiceNow User Interface Overview
+The ServiceNow user interface (UI) is designed to be intuitive and easy to navigate. The UI is divided into three main sections: the Banner Frame, the Application Navigator, and the Content Frame. The Banner Frame displays the brand logo and includes the user menu, which provides options for logging out, changing roles, and accessing settings. The Application Navigator allows users to filter and navigate across different applications, displaying favorites and history for quick access. The Content Frame is the area where the selected item or application is displayed, enabling users to interact with the specific content they need.
+
+4. ServiceNow Branding Overview
+ServiceNow offers customization options that allow organizations to tailor the platform's user interface to align with their branding. Through the guided setup, users can change time zones, date formats, and add their company logo and background colors. This customization extends to the welcome page, where additional items can be added to enhance the user experience. By aligning the platform with corporate branding, organizations can create a consistent look and feel across all their digital touchpoints.
+
+5. ServiceNow Lists and Filters
+ServiceNow utilizes lists and list views across its platform to display data, such as incidents and applications, in an organized manner. Lists can be accessed using commands like .list to view any list, or sys_db_object.list to open a list of tables. The platform's list functionalities are versatile, allowing users to move columns in and out of lists, sort data by clicking on column names, and group or refresh data as needed. Filters can be applied to lists to meet specific data requirements, enabling users to focus on the most relevant information.
+
+6. Forms in ServiceNow
+Forms in ServiceNow are essential tools for viewing and updating records in the ServiceNow database. These forms are used for various types of records, such as incidents or user details. A typical form consists of a header bar, fields (including required and read-only fields), and submit or update buttons that save the form's data to the database. Users can customize forms by changing the form view, creating unique form templates, and adjusting form fields to suit their needs. This flexibility ensures that users can interact with data in a way that best supports their workflows.
+
+7. A Hands-on ServiceNow Tool Demo
+ServiceNow is a versatile cloud platform that offers multiple environments for IT service management and other business functions. The platform features a user interface known as the Next Experience, which provides various capabilities across IT, Employee, Customer, and Creator workflows. Users interact with the platform through lists and forms, with options to customize views and searches according to their preferences. ServiceNow also offers certifications and includes a comprehensive knowledge base, ensuring that users have access to the documentation and training they need to make the most of the platform.
+
+8. Introduction to Importing Data in ServiceNow
+Importing data into ServiceNow involves three key components: the source, staging, and target. The source is the origin of the data, which could be an external database or file. The staging area is a temporary table automatically created by ServiceNow between the source and target, allowing users to validate and manipulate data before it is imported into the final storage location. This process ensures that data is accurately transferred and integrated into the ServiceNow platform, supporting various business operations.
+
+9. Creating a Data Source in ServiceNow
+To import data into ServiceNow, users must first create a data source in the platform's data source table, which can be accessed using the sys_data_source.list command. Key components of a data source include the name, label, and type (e.g., file, JDBC, REST). When importing data from Excel files, users must specify the sheet number and header row, and can use FTP or direct attachment methods. For JDBC sources, users need to add mid-server details and specify the format and query to fetch data from the database. This setup ensures that data is correctly ingested into ServiceNow.
+
+10. Understanding Import Sets in ServiceNow
+Import sets in ServiceNow are tables automatically created by the platform during the data import process. Users can access these tables using commands like staging_table_name.list. If the import set table does not exist, users must run the import first. These tables contain rows and columns based on the source data and are useful for verifying data before the final import. This intermediate step helps ensure that data is correctly mapped and transformed before being integrated into the target tables.
+
+11. ServiceNow Transform Maps & Field Maps
+Transform maps and field maps are essential tools in ServiceNow for linking data between staging and target tables. Field maps organize the data transfer process, ensuring that information from the source is accurately mapped to the correct fields in the target table. Transform maps guide this transformation process, allowing users to create custom mappings and use features like mapping assist for detailed field mapping. To prevent duplicate records, users can utilize coalesce fields during the transformation. After setting up the maps, it is crucial to test the import process to ensure accurate data transfer and integration.
+
+12. ServiceNow Incident Management Tutorial and Task Administration
+ServiceNow's incident management and task administration features focus on efficient task management using the core task table. Tasks are records with various attributes, extended by specific tables, and are managed through a hierarchical design. This design supports features like assignment rules, approvals, and Service Level Agreements (SLAs), which streamline the task management process. Tasks can be assigned to users and groups, and collaboration is enhanced through visual task boards, which offer guided, flexible, and freeform options for managing tasks effectively.
+
+13. ServiceNow Reporting Tutorial
+ServiceNow offers robust reporting capabilities that are data-driven and utilize key tables like sys_report, report_source, and dashboard. Reports include fields such as sys_id, title, and source_type, and the creation process involves setting data sources and choosing visualization types. Once created, reports can be scheduled, shared, and integrated into dashboards for comprehensive analysis. This reporting functionality allows organizations to gain valuable insights from their data, supporting better decision-making and operational efficiency.
+
+14. What is Low Code No Code Development?
+Low Code No Code (LCNC) platforms, like ServiceNow's App Engine Studio, facilitate application development without requiring deep coding knowledge. These platforms enhance agility, reduce costs, and increase automation by enabling business professionals to create applications with minimal technical expertise. However, LCNC platforms may lack the flexibility of traditional coding, limiting their use in highly complex or customized scenarios. Despite these limitations, LCNC is reshaping the roles in both business and IT, encouraging business professionals to acquire technical skills while requiring IT professionals to support and manage LCNC solutions.
 ServiceNow Week 1 Hands on learning 
